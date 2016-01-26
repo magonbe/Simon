@@ -1,5 +1,7 @@
 
-<h1 id="titulo"></h1>
+<h1 id="titulo">{{titulo}} {{colores}}</h1>
+	<button type="button" class="btn btn-default" ng-click="borrar()">BORRAR</button>
+
 <p onclick="envia('rojo')"></p>
 <p id="parrafo"></p>
 <!--Inicio Container-->	
@@ -7,15 +9,17 @@
 
 <table>
 	<tr>
-		<td id="Verde" class="Verde"></td>
-		<td id="Rojo" class="Rojo" ></td>
+		<td id="Verde" class="Verde" ng-click="play('verde')"></td>
+		<td id="Rojo" class="Rojo" ng-click="play('rojo')" ></td>
 	</tr>
 	<tr>
-		<td id="Azul" class="Azul" ></td>
-		<td id="Amarillo" class="Amarillo"></td>
+		<td id="Azul" class="Azul" ng-click="play('azul')"></td>
+		<td id="Amarillo" class="Amarillo" ng-click="play('amarillo')"></td>
 	</tr>
 	
 </table>
+
+
 	
 
 <!--Fin tabla-->
