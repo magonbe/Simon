@@ -1,0 +1,61 @@
+
+ 
+    body{
+      
+            font-family: "Trebuchet MS",Arial,"Times New Roman";
+            font-size:1.5em;
+    }
+        table{
+          margin: 150px auto;
+          background-color:black;
+          border: 3px solid black;
+            width:300px;
+            height:300px;
+            text-align:center;
+            border-radius: 50px;
+            border-spacing: 15px;
+          }
+    td{
+            border: 5px solid ;
+            width: 100px;
+            height: 100px;
+            
+                    }
+                    
+        .Verde{
+          color:green;
+          background-color: #0DFF60;
+          border-radius: 100% 10px 5px 10px;
+          border-color:   #006600 #006600 #00E899  ;
+        }
+        .Verde:hover{
+          background-color:#71FA00;
+        }
+        .Rojo{
+          color:red;
+          background-color:#941410;
+          border-radius: 10px 100% 10px 5px;
+          border-color:  #A70400  #A70400 #DE0400;
+        }
+        .Rojo:hover{
+          background-color:#FF221C;
+
+        }
+        .Azul{
+          color:#3184F5;
+          background-color:#3366FF;
+          border-radius: 10px 5px 10px 100%;
+          border-color: #3197F5  #223BDE #223BDE    ;
+        }
+        .Azul:hover{
+          background-color:#0DE2FA;
+        }
+        .Amarillo{
+          color: black;
+          background-color:#FFFF66;
+          border-radius: 5px 10px 100% 10px;
+          border-color: #FAF894  #DEB250 #DEB250;
+        }
+        .Amarillo:hover{
+          background-color:#EDFA0D; 
+        }
